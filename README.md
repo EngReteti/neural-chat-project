@@ -9,5 +9,5 @@ A simple, step-by-step Python chatbot built in a terminal environment.
 
 ## Project Evolution
 - [x] Initial Repository Setup
-- [ ] Basic Input/Output Logic
+- [x] Basic Input/Output Logic
 - [ ] Integration of AI/NLP logic
