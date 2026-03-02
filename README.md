@@ -1,13 +1,19 @@
-# Neural Chat Project
+# Simple Neural Chat
 
-A simple, step-by-step Python chatbot built in a terminal environment.
+A minimalist, rule-based chatbot built entirely within a **Termux** environment using Python. This project serves as a foundational exercise in AI logic and version control.
 
-## Setup
-1. Clone the repository.
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the chat: `python chat.py`
+## 🚀 Features
+* **Keyword Recognition:** Responds to specific user intents (greetings, info, python).
+* **Fallback Logic:** Handles unknown inputs gracefully.
+* **Clean Interface:** Simple command-line loop with an easy exit command.
+* **Version Controlled:** Developed step-by-step with clear Git history.
 
-## Project Evolution
-- [x] Initial Repository Setup
-- [x] Basic Input/Output Logic
-- [ ] Integration of AI/NLP logic
+## 🛠️ Requirements
+* Python 3.x
+* Termux (or any standard terminal)
+
+## 📥 Installation & Usage
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/EngReteti/neural-chat-project.git](https://github.com/EngReteti/neural-chat-project.git)
+
