@@ -1,27 +1,38 @@
-def get_response(text):
-    # A simple dictionary acting as our bot's memory
-    responses = {
-        "hello": "Hi there! How can I help you with AI today?",
-        "name": "I am your Neural Chat project assistant.",
-        "weather": "I'm stuck in Termux, but it feels like 0s and 1s in here!",
-        "python": "Python is my native language. It's great for AI!"
-    }
+import random
+
+def get_response(user_input):
+    # Standardizing the input
+    text = user_input.lower().strip()
+
+    # 1. Simple Keyword Database
+    greetings = ["hello", "hi", "hey"]
+    bot_info = ["who are you", "your name", "what are you"]
     
-    # Check if any keyword exists in the user's input
-    for word in responses:
-        if word in text:
-            return responses[word]
-            
-    return "I'm still learning! Try asking about 'Python' or 'your name'."
+    # 2. Logic: Checking for matches
+    if any(word in text for word in greetings):
+        return "Hello! How can I help you today?"
+    
+    if any(word in text for word in bot_info):
+        return "I am a simple Python chatbot built in Termux!"
+
+    if "python" in text:
+        return "Python is the best language for AI development."
+
+    # 3. Fallback: If no keywords are found
+    return "I'm not sure I understand that yet. I'm still a simple bot!"
 
 def start_chat():
-    print("Chatbot: Hello! (Type 'quit' to exit)")
+    print("--- Neural Chat v1.0 (Simple) ---")
+    print("Type 'exit' to stop the chat.")
+    
     while True:
-        user_input = input("You: ").lower()
-        if user_input == 'quit':
-            break
+        user_msg = input("You: ")
         
-        response = get_response(user_input)
+        if user_msg.lower() == 'exit':
+            print("Chatbot: Goodbye! Have a great day.")
+            break
+            
+        response = get_response(user_msg)
         print(f"Chatbot: {response}")
 
 if __name__ == "__main__":
