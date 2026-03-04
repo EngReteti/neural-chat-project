@@ -17,8 +17,6 @@ A minimalist, rule-based chatbot built entirely within a **Termux** environment 
    ```bash
    git clone [https://github.com/EngReteti/neural-chat-project.git](https://github.com/EngReteti/neural-chat-project.git)
 
-## 📸 Chatbot Output
-![Chatbot Interface](images/output.jpg)
 ## 🖥️ Demo & Output
 
 | Feature | Preview |
