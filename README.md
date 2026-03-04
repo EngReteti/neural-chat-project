@@ -12,10 +12,9 @@ A minimalist, rule-based chatbot built entirely within a **Termux** environment 
 * Python 3.x
 * Termux (or any standard terminal)
 
-## 📥 Installation & Usage
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/EngReteti/neural-chat-project.git](https://github.com/EngReteti/neural-chat-project.git)
+ **Run the chatbot:**
+   python src/chat.py
+
 
 ## 🖥️ Demo & Output
 
