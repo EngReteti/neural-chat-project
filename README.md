@@ -19,3 +19,9 @@ A minimalist, rule-based chatbot built entirely within a **Termux** environment 
 
 ## 📸 Chatbot Output
 ![Chatbot Interface](images/output.jpg)
+## 🖥️ Demo & Output
+
+| Feature | Preview |
+| :--- | :--- |
+| **Interactive Terminal** | ![Chatbot Screenshot](images/output.jpg) |
+| **Description** | A live demonstration of the chatbot processing "hello" and "python" keywords within the Termux environment. |
